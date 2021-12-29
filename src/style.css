@@ -1,0 +1,61 @@
+table {
+    width: 1200px;
+    border-collapse: collapse;
+}
+
+table thead {
+    border-bottom: 1px solid;
+}
+
+table thead th {
+    text-align: left;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable:hover {
+    background-color: #e3edfd;
+}
+
+table tbody tr {
+    background: rgba(0,0,0,0.08);
+}
+
+table tr th, table tr td {
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px 15px;  
+}
+
+.badge {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+#pagination {
+    display: block;
+    padding: 8px;
+    text-align: left;
+    height: 40px;
+}
+
+#pagination button {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+#pagination > button:hover {
+    background: rgba(0,0,0,0.03);
+    color: #FB3C00;
+}
