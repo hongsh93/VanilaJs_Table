@@ -51,3 +51,16 @@ http://localhost:8080/
 
 ## 화면
 <img src="./asset/dashboard.PNG"  width="700" height="370">
+
+## 테스트
+```
+# 테스트 시작
+npm run test
+
+```
++ 유닛 테스트 (jest) 구현
+    - 함수의 비지니스 로직을 테스트 하기 위한 샘플 테스트 1개를 구현
+    - ES6+으로 작성되어있는 js 를 테스트하기 위해 babel 설치
+    - css를 빈 js 파일로 교체하여 에러 해결
+    - window 호출을 해결하기 위한 test evironment에 jsdom 사용 (node에 비해서 느림)
+    - async await를 해결하기 위한 babel-polyfill 사용

@@ -55,6 +55,7 @@ const isoToDate = function(str) {
 
     return `${year}-${month}-${dt} ${hour}:${minute}`
 }
+module.exports = isoToDate
 
 const makeHeaderSort = function(columnNum) {
     document.getElementById('tableHead').children[0].children[columnNum].className += " sortable"
