@@ -1,4 +1,4 @@
-const isoToDate = require('@/index.js')
+import isoToDate from '@/index.js'
 import 'regenerator-runtime'
 
 describe('business algorithm test', () => {
